@@ -12,7 +12,7 @@ const Services = () => {
    const [services] = useServices()
 
    const [cart,setCart] = useCart(services) 
-console.log(cart)
+
 //    useEffect(() => {
 //        if(services.length){
 //         const saveCart = getStoredCart();

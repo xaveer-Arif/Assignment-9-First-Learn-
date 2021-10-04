@@ -8,29 +8,9 @@ import {addToLocal, getStoredCart} from '../../LocalStorage/LocalStorage'
 
 
 const Services = () => {
-    // const [services] = useServices();
    const [services] = useServices()
 
    const [cart,setCart] = useCart(services) 
-
-//    useEffect(() => {
-//        if(services.length){
-//         const saveCart = getStoredCart();
-//         const storeCart = []
-//         for(const id in saveCart){
-//             const addedService = services.find(service => service.id === id)
-//             if(addedService){
-//                 const quantity = saveCart[id]
-//                 addedService.quantity = quantity;
-//                 storeCart.push(addedService)
-//             }
-            
-//         }
-//         setCart(storeCart)
-//        }
-       
-       
-//    },[services])
 
   const addHandler = (services) =>{
     // const newCart = [...cart, services]
@@ -50,8 +30,8 @@ const Services = () => {
       addToLocal(services.id)
   }
     return (
-    <div>
-        <div className = "service-container">
+    <div className = 'display-color'>
+        <div className = "service-container pt-3 ps-4 pe-3 pb-4">
            
             <div className="display-service">
             {
@@ -59,9 +39,8 @@ const Services = () => {
                     key = {service.id}
                     addHandler = {addHandler}
                     services = {service}></Service>)
-
             }
-            
+
             </div>
             
             <div>

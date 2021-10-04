@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
 
 const HomeCart = (props) => {
     const {name, img, price} = props.course
@@ -14,6 +14,7 @@ const HomeCart = (props) => {
           <Card.Text>
             Price: ${price} 
           </Card.Text>
+          <Button variant="danger mt-1 ps-4 pe-4 fs-6">Buy Now</Button>
         </Card.Body>
       </Card>
     </Col>

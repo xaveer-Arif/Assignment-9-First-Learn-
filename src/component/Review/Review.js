@@ -17,12 +17,13 @@ const Review = () => {
     return (
         <div className = 'service-container'>
             <div className = 'display-service'>
+               
                 {
                 cart.map(service => <ReviewServices 
                     key = {service.id}
                     removeHandler ={removeHandler}
                     service = {service}></ReviewServices>)
-            }
+                }
             </div>
 
             <div className="">

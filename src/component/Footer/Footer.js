@@ -11,7 +11,7 @@ const Footer = () => {
             </p>
             <div className="col-md-5">
               <div className="right-footer-container">
-                <h3>Sign up for the newsletter</h3>
+                <h3>Sign Up</h3>
                 <input
                   className="footer-input"
                   type="text"

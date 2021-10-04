@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 const Cart = (props) => {
     const {cart} = props
@@ -13,10 +14,13 @@ const Cart = (props) => {
         total = total + service.price * service.quantity
     }
     return (
-        <div>
-            <h2>Order Summary</h2>
-            <h4>Items: {quantity}</h4>
-            <h4>Total Price: {total}</h4>
+        <div className = " ms-4 mt-5">
+            <div className ="card">
+            <h2 className = 'fw-bold ms-3'>Order Summary</h2>
+            <h5 className ="ms-3">Items: {quantity}</h5>
+            <h5 className = 'ms-3'>Total Price: {total}</h5>
+            <Button variant="danger mt-3 ps-4 pe-4 fs-5">Service</Button>
+            </div>
         </div>
     );
 };

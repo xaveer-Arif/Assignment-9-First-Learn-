@@ -25,7 +25,7 @@ const Home = () => {
              <b/> but an excellent servan</h1>
             <p className="text-white fs-4 ms-5 mt-4">
             <span> Be prepared to invest in a down market and to "get out" in a soaring market, as per the philosophy of Warren Buffett.</span></p>
-            <button className="mt-3 ms-5">About Us</button>
+            <Button variant="danger mt-3 ms-5 ps-4 pe-4 fs-5">Service</Button>
           </div>
           <div className="col-md-6"></div>
 

@@ -8,12 +8,11 @@ const HomeCart = (props) => {
             {Array.from({ length: 1 }).map((_, idx) => (
     <Col>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" className = 'images' src={img} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            Price: ${price} 
           </Card.Text>
         </Card.Body>
       </Card>

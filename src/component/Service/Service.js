@@ -9,7 +9,7 @@ const Service = (props) => {
     return (
         <div>
           <div>
-            <img className = "img-fluid " src={img} alt="" />
+            <img className = "images " src={img} alt="" />
           </div>
           <div>
             <h2>{name}</h2>

@@ -1,0 +1,31 @@
+[
+    {
+        "id":"615ab0b0d831cf1509fcd785",
+        "name":"Accounting",
+        "price":"100",
+        "img":"https://image.freepik.com/free-photo/businesspeople-working-finance-accounting-analyze-financi_74952-1411.jpg",
+        "details":"Key skills that hiring managers want financial analysts to learn from their accounting courses are an understanding of debits and credits"
+    },
+    {
+        "id":"615ab0b0cb88ce366b187dbc",
+        "name":"Financial Statements",
+        "price":"120",
+        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts to get from finance classes are how to construct an income statement"
+    },
+    
+    {
+        "id":"615ab0b0eca8231fe0927d6b",
+        "name":"Math",
+        "price":"100",
+        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "details":"It’s critical for financial analysts to have a solid understanding of financial math, and in particular, know how to calculate present value"
+    },
+    {
+        "id":"615ab0b0c9876c4034d62454",
+        "name":"Excel",
+        "price":"50",
+        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "details":"Excel is the number one tool for every finance professional. It’s critical to know how to use all the various formulas, functions"
+    }
+]

@@ -1,10 +1,24 @@
 import React from 'react';
 import './Home.css'
-import { Button } from 'react-bootstrap';
+import { Button, Row, Col, Card } from 'react-bootstrap';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import HomeCart from '../HomeCart/HomeCart';
+import useServices from '../UseServices/UseServices';
 
 const Home = () => {
+    // const [services] = useServices()
+    const [courses , setCourses] = useState([])
+
+    useEffect(() => {
+        fetch('./shortData.JSON')
+        .then(res => res.json())
+        .then(data => setCourses(data))
+    },[])
+
     return (
-            
+        // banner part
+        <div>
         <div className="row d-flex banner align-items-center justify-content-center">
           <div className="col-md-6 ">
             <h1 className="ms-5 display-5 fw-bold text-white">Money is a terrible master
@@ -14,8 +28,35 @@ const Home = () => {
             <button className="mt-3 ms-5">About Us</button>
           </div>
           <div className="col-md-6"></div>
+
+          {/* courses card */}
         </div>
+        <div className = 'container mt-5 mb-5'>
+        <Row xs={1} md={4} className="g-4 ">
+            {
+            courses.map(course => <HomeCart 
+                key = {course.id}
+                course = {course}></HomeCart>)
+        }
+        </Row>
+        
+        {/* {
+            services.map(service => <HomeCart 
+                key = {service.id}
+                service = {service}></HomeCart>)
+        } */}
+        {/* {
+            courses.map(course => <HomeCart 
+                key = {course.id}
+                service = {course}></HomeCart>)
+        } */}
+        </div>
+        </div>
+        
+           
             
+           
+        
     );
 };
 

@@ -3,11 +3,34 @@ import "./Services.css"
 import Service from '../Service/Service';
 import useServices from '../UseServices/UseServices';
 import Cart from '../Cart/Cart';
+import {addToLocal, getStoredCart} from '../../LocalStorage/LocalStorage'
+
 
 const Services = () => {
     // const [services] = useServices();
    const [services] = useServices()
-  
+
+   const [cart, setCart] = useState([]) 
+
+   useEffect(() => {
+       if(services.length){
+        const saveCart = getStoredCart();
+        const storeCart = []
+        for(const id in saveCart){
+            const addedService = services.find(service => service.id === id)
+            storeCart.push(addedService)
+        }
+        setCart(storeCart)
+       }
+       
+       
+   },[services])
+
+  const addHandler = (services) =>{
+      const newCart = [...cart, services]
+      setCart(newCart)
+      addToLocal(services.id)
+  }
     return (
     <div>
         <div className = "service-container">
@@ -16,12 +39,13 @@ const Services = () => {
             {
                 services.map(service => <Service 
                     key = {service.id}
+                    addHandler = {addHandler}
                     service = {service}></Service>)
             }
             </div>
             
             <div>
-                <Cart></Cart>
+                <Cart cart ={cart}></Cart>
             </div>
         </div>
     </div>

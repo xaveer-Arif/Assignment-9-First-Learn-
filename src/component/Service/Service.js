@@ -3,6 +3,7 @@ import './Service.css'
 import { Row, Col, Card } from 'react-bootstrap';
 
 const Service = (props) => {
+  const {addHandler} = props
     const {name, id , price, details, img} = props.service
     return (
         <div>
@@ -13,7 +14,7 @@ const Service = (props) => {
             <h2>{name}</h2>
             <h4>Price: ${price}</h4>
             <p>{details}</p>
-            <button>Purchase Now</button>
+            <button onClick = {() => addHandler(props.service)}>Purchase Now</button>
           </div>
         </div>
     );

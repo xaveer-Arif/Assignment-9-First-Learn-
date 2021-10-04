@@ -34,6 +34,7 @@ const Services = () => {
         <div className = "service-container pt-3 ps-4 pe-3 pb-4">
            
             <div className="display-service">
+              
             {
                 services.map(service => <Service 
                     key = {service.id}

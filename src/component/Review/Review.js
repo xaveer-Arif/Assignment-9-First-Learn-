@@ -1,4 +1,5 @@
 import React from 'react';
+import './Review.css'
 import { removeFromData } from '../../LocalStorage/LocalStorage';
 import Cart from '../Cart/Cart';
 import ReviewServices from '../ReviewService/ReviewServices';
@@ -15,8 +16,8 @@ const Review = () => {
         removeFromData(id)
     }
     return (
-        <div className = 'service-container'>
-            <div className = 'display-service'>
+        <div className = 'service-container extra-height display-color'>
+            <div className = 'display-service pt-1 ps-5 pe-5'>
                
                 {
                 cart.map(service => <ReviewServices 
@@ -26,7 +27,7 @@ const Review = () => {
                 }
             </div>
 
-            <div className="">
+            <div className ='pe-3'>
                 <Cart cart={cart}></Cart>
             </div>
             

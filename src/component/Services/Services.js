@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./Services.css"
 import Service from '../Service/Service';
 import useServices from '../UseServices/UseServices';
+import useCart from '../useCart/UseCart'
 import Cart from '../Cart/Cart';
 import {addToLocal, getStoredCart} from '../../LocalStorage/LocalStorage'
 
@@ -10,21 +11,26 @@ const Services = () => {
     // const [services] = useServices();
    const [services] = useServices()
 
-   const [cart, setCart] = useState([]) 
-
-   useEffect(() => {
-       if(services.length){
-        const saveCart = getStoredCart();
-        const storeCart = []
-        for(const id in saveCart){
-            const addedService = services.find(service => service.id === id)
-            storeCart.push(addedService)
-        }
-        setCart(storeCart)
-       }
+   const [cart,setCart] = useCart(services) 
+console.log(cart)
+//    useEffect(() => {
+//        if(services.length){
+//         const saveCart = getStoredCart();
+//         const storeCart = []
+//         for(const id in saveCart){
+//             const addedService = services.find(service => service.id === id)
+//             if(addedService){
+//                 const quantity = saveCart[id]
+//                 addedService.quantity = quantity;
+//                 storeCart.push(addedService)
+//             }
+            
+//         }
+//         setCart(storeCart)
+//        }
        
        
-   },[services])
+//    },[services])
 
   const addHandler = (services) =>{
       const newCart = [...cart, services]

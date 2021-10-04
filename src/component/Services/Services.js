@@ -58,7 +58,7 @@ const Services = () => {
                 services.map(service => <Service 
                     key = {service.id}
                     addHandler = {addHandler}
-                    service = {service}></Service>)
+                    services = {service}></Service>)
             }
             </div>
             

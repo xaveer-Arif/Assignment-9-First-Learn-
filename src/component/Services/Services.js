@@ -59,7 +59,9 @@ const Services = () => {
                     key = {service.id}
                     addHandler = {addHandler}
                     services = {service}></Service>)
+
             }
+            
             </div>
             
             <div>

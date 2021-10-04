@@ -1,0 +1,59 @@
+[
+    {
+        "id":"1",
+        "name":"Accounting",
+        "price":"100",
+        "img":"https://image.freepik.com/free-photo/businesspeople-working-finance-accounting-analyze-financi_74952-1411.jpg",
+        "details":"Key skills that hiring managers want financial analysts to learn from their accounting courses are an understanding of debits and credits"
+    },
+    {
+        "id":"2",
+        "name":"Financial Statements",
+        "price":"120",
+        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts to get from finance classes are how to construct an income statement"
+    },
+    
+    {
+        "id":"3",
+        "name":"",
+        "price":"",
+        "img":"",
+        "details":""
+    },
+    {
+        "id":"4",
+        "name":"",
+        "price":"",
+        "img":"",
+        "details":""
+    },
+    {
+        "id":"5",
+        "name":"",
+        "price":"",
+        "img":"",
+        "details":""
+    },
+    {
+        "id":"6",
+        "name":"Financial Statements",
+        "price":"120",
+        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts to get from finance classes are how to construct an income statement"
+    },
+    {
+        "id":"7",
+        "name":"Financial Statements",
+        "price":"120",
+        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts to get from finance classes are how to construct an income statement"
+    },
+    {
+        "id":"8",
+        "name":"Financial Statements",
+        "price":"120",
+        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts to get from finance classes are how to construct an income statement"
+    }
+]

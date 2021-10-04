@@ -33,7 +33,19 @@ const Services = () => {
 //    },[services])
 
   const addHandler = (services) =>{
-      const newCart = [...cart, services]
+    // const newCart = [...cart, services]
+      const exists = cart.find(course => course.id === services.id)
+      let newCart = [];
+      if(exists){
+        const rest = cart.filter(course => course.id !== services.id)
+        exists.quantity = exists.quantity + 1;
+        newCart = [...rest, services] 
+
+      }
+      else{
+        services.quantity = 1;
+        newCart = [...cart, services]
+      }
       setCart(newCart)
       addToLocal(services.id)
   }

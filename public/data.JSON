@@ -16,24 +16,24 @@
     
     {
         "id":"3",
-        "name":"",
-        "price":"",
-        "img":"",
-        "details":""
+        "name":"Math",
+        "price":"100",
+        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "details":"It’s critical for financial analysts to have a solid understanding of financial math, and in particular, know how to calculate present value"
     },
     {
         "id":"4",
-        "name":"",
-        "price":"",
-        "img":"",
-        "details":""
+        "name":"Excel",
+        "price":"50",
+        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "details":"Excel is the number one tool for every finance professional. It’s critical to know how to use all the various formulas, functions"
     },
     {
         "id":"5",
-        "name":"",
-        "price":"",
-        "img":"",
-        "details":""
+        "name":"Financial Analysis",
+        "price":"130",
+        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "details":"This is the “core” of a financial analyst’s job description. Classes on financial analysis will teach you how to calculate metrics like margins, growth rates, P/E ratio"
     },
     {
         "id":"6",

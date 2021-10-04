@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>    
   <Navbar bg="dark" variant="dark">
-    <h1 className = 'text-white ms-4'>First Learn</h1>
+    <h1 className = 'text-white ms-3'>First <span>Learn</span> </h1>
     <Container className = 'ps-5'>
     <Nav className="ms-auto">
       <Nav.Link href="home">Home</Nav.Link>

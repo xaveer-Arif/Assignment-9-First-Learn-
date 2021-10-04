@@ -1,0 +1,15 @@
+.about-section{
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.front-weight{
+    font-weight:500;
+}
+.btn-about{
+    padding: 10px;
+}

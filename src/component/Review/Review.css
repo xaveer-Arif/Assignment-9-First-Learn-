@@ -2,9 +2,12 @@
     /* width: 100%; */
     /* height: 100%; */
 }
-.extra-margn{
-    margin-bottom: 10px;
+.review-height{
+    height: 570px;
 }
-.extra-height{
+/* .reduce-margin{
+    margin-bottom: 1000px;
+} */
+/* .extra-height{
     height: 480px;
-}
+} */

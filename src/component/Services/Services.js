@@ -5,6 +5,9 @@ import useServices from '../UseServices/UseServices';
 import useCart from '../useCart/UseCart'
 import Cart from '../Cart/Cart';
 import {addToLocal, getStoredCart} from '../../LocalStorage/LocalStorage'
+import { Button } from 'react-bootstrap';
+import {NavLink } from 'react-router-dom';
+
 
 
 const Services = () => {
@@ -29,6 +32,7 @@ const Services = () => {
       setCart(newCart)
       addToLocal(services.id)
   }
+
     return (
     <div className = 'display-color'>
         <div className = "service-container pt-3 ps-4 pe-3 pb-4">
@@ -45,7 +49,12 @@ const Services = () => {
             </div>
             
             <div>
-                <Cart cart ={cart}></Cart>
+                <Cart cart ={cart}>
+
+                  <NavLink to ='/review'>
+                    <Button variant="danger cart-btn">Order Now</Button>
+                  </NavLink>
+                </Cart>
             </div>
         </div>
     </div>

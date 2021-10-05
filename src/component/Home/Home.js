@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import HomeCart from '../HomeCart/HomeCart';
 import useServices from '../UseServices/UseServices';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     // const [services] = useServices()
@@ -25,7 +26,9 @@ const Home = () => {
              <b/> but an excellent servan</h1>
             <p className="text-white fs-4 ms-5 mt-4">
             <span> Be prepared to invest in a down market and to "get out" in a soaring market, as per the philosophy of Warren Buffett.</span></p>
-            <Button variant="danger mt-3 ms-5 ps-4 pe-4 fs-5">Service</Button>
+            <Link to ='/services'>
+            <Button variant="danger mt-3 ms-5 ps-4 pe-4 fs-6">Services</Button>
+            </Link>
           </div>
           <div className="col-md-6"></div>
 

@@ -17,7 +17,7 @@ const Service = (props) => {
             <p>{details}</p>
             {/* <button onClick = {() => addHandler(props.services)}>Purchase Now</button> */}
 
-            <Button variant="danger mt-3 ps-4 pe-4 fs-5"  onClick = {() => addHandler(props.services)}>Purchase</Button>
+            <Button variant="danger mt-1 ps-4 pe-4 fs-6"  onClick = {() => addHandler(props.services)}>Purchase</Button>
           </div>
         </div>
     );

@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 
 const Cart = (props) => {
     const {cart} = props
+    
 
     let quantity = 0;
     let total = 0;
@@ -19,7 +20,8 @@ const Cart = (props) => {
             <h2 className = 'fw-bold ms-3'>Order Summary</h2>
             <h5 className ="ms-3">Items: {quantity}</h5>
             <h5 className = 'ms-3'>Total Price: {total}</h5>
-            <Button variant="danger mt-3 ps-4 pe-4 fs-5">Service</Button>
+            {/* <Button variant="danger mt-3 ps-4 pe-4 fs-5">Service</Button> */}
+            {props.children}
             </div>
         </div>
     );

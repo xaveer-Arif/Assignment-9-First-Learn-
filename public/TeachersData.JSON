@@ -1,0 +1,58 @@
+[
+    {   
+        "id":"1",
+        "img":"https://stylemixthemes.com/masterstudy/language-center/wp-content/uploads/sites/15/2015/07/1-2.jpg",
+        "name":"Bonucci",
+        "profession":"Painting",
+        "details":"Having years of Industry experience, he works on many project and at present he is providing Consultancy for many renowned IT companies."
+    },
+    {   
+        "id":"2",
+        "img":"https://stylemixthemes.com/masterstudy/language-center/wp-content/uploads/sites/15/2015/07/4.jpg",
+        "name":"Sarah Johnson",
+        "profession":"Mobile Apps & Web",
+        "details":"Before engineering, I developed and implemented CI (Continuous Improvement) management systems in companies across America"
+    },
+    {   
+        "id":"3",
+        "img":"https://stylemixthemes.com/masterstudy/language-center/wp-content/uploads/sites/15/2015/07/2-2.jpg",
+        "name":"Cindy Chow",
+        "profession":"Karate & Sambo",
+        "details":"She is a passionate hardcore Java Professional and like to teach technology that relates to Java. Since 2010 she tuned to Android because of its Open Source."
+    },
+    {   
+        "id":"4",
+        "img":"https://stylemixthemes.com/masterstudy/language-center/wp-content/uploads/sites/15/2015/07/3-2.jpg",
+        "name":"Peter Parker",
+        "profession":"IT Expert",
+        "details":"My PLC / HMI experience includes projects from $10k up to about $40m, primarily within the realm of chemical 2010 she tuned processing and"
+    },
+    {   
+        "id":"5",
+        "img":"https://stylemixthemes.com/masterstudy/language-center/wp-content/uploads/sites/15/2015/05/techer_f.jpg",
+        "name":"Rebeca Adams",
+        "profession":"Project manager",
+        "details":"This belief comes from my unyielding faith in the decency and generosity of the American people. And in the weeks ahead, I look forward to debating them."
+    },
+    {   
+        "id":"6",
+        "img":"https://stylemixthemes.com/masterstudy/language-center/wp-content/uploads/sites/15/2015/05/musicman.jpg",
+        "name":"Arthur Springs",
+        "profession":"Design conceptor",
+        "details":"From a mechanical perspective, I’ve designed most of the same systems I program. My competencies in this area include full design, 3D modeling ."
+    },
+    {   
+        "id":"7",
+        "img":"https://stylemixthemes.com/masterstudy/language-center/wp-content/uploads/sites/15/2015/05/bodybuilder.jpg",
+        "name":"Brad Beerstein",
+        "profession":"Cinematography",
+        "details":"My background includes industrial automation and mechanical design. By degree, I’m an MBA, however after a few years on the road full-time as a ."
+    },
+    {   
+        "id":"8",
+        "img":"https://stylemixthemes.com/masterstudy/language-center/wp-content/uploads/sites/15/2015/05/techer_m.jpg",
+        "name":"Michael Windzor",
+        "profession":"Front-end dev",
+        "details":"Michael Windzor has been teaching students and professional of over past 10+ years, through his workshop he trained up to 25,000+ Android    ."
+    }
+]

@@ -42,17 +42,6 @@ const Home = () => {
                 course = {course}></HomeCart>)
         }
         </Row>
-        
-        {/* {
-            services.map(service => <HomeCart 
-                key = {service.id}
-                service = {service}></HomeCart>)
-        } */}
-        {/* {
-            courses.map(course => <HomeCart 
-                key = {course.id}
-                service = {course}></HomeCart>)
-        } */}
         </div>
         </div>
         

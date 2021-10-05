@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Deployment
 
 <!-- Netlify live link: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment) -->
-Netlify live link: [https://elastic-poincare-5ac43c.netlify.app/](https://distracted-swirles-82651e.netlify.app/)
+Netlify live link: [https://elastic-poincare-5ac43c.netlify.app/]([https://elastic-poincare-5ac43c.netlify.app)
 
 ## Available Scripts
 

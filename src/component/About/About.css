@@ -1,7 +1,6 @@
-.about-section{
-    display: grid;
-    grid-template-columns: 8fr 1fr;
 
+.img-border{
+    border: 10px solid rgba(32, 31, 31, 0.739);
 }
 p{
     font-size: 18px;

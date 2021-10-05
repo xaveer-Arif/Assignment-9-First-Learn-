@@ -1,6 +1,6 @@
 import React from 'react';
 import './Teacher.css'
-import { Col, Card, Button } from 'react-bootstrap';
+import { Col, Card} from 'react-bootstrap';
 
 const Teacher = (props) => {
     const {name, img, profession, details} = props.teacher
@@ -11,7 +11,6 @@ const Teacher = (props) => {
 <Col>
   <Card>
       <img src={img} alt="" />
-    {/* <Card.Img variant="top" className = 'images' src= {img} /> */}
     <Card.Body>
       <h3 className = 'text-center fw-bold'>{name}</h3>
       <h5 className = 'text-center profession'>{profession}</h5>

@@ -1,14 +1,12 @@
 import React from 'react';
 import './Home.css'
-import { Button, Row, Col, Card } from 'react-bootstrap';
+import { Button, Row } from 'react-bootstrap';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import HomeCart from '../HomeCart/HomeCart';
-import useServices from '../UseServices/UseServices';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-    // const [services] = useServices()
     const [courses , setCourses] = useState([])
 
     useEffect(() => {
@@ -31,8 +29,6 @@ const Home = () => {
             </Link>
           </div>
           <div className="col-md-6"></div>
-
-          {/* courses card */}
         </div>
         <div className = 'container mt-5 mb-5'>
         <Row xs={1} md={4} className="g-4 ">

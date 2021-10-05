@@ -10,22 +10,22 @@
         "id":"615ab0b0cb88ce366b187dbc",
         "name":"Financial Statements",
         "price":"120",
-        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
-        "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts to get from finance classes are how to construct an income statement"
+        "img":"https://image.freepik.com/free-photo/businessmen-elegant-suits-business-meeting-making-calculations-office_181624-38939.jpg",
+        "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts"
     },
     
     {
         "id":"615ab0b0eca8231fe0927d6b",
         "name":"Math",
         "price":"100",
-        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "img":"https://image.freepik.com/free-photo/close-up-businessman-with-digital-tablet_1098-549.jpg",
         "details":"It’s critical for financial analysts to have a solid understanding of financial math, and in particular, know how to calculate present value"
     },
     {
-        "id":"615ab0b0c9876c4034d62454",
-        "name":"Excel",
+        "id":"615ab0b02ce608fgf2b75332dfd",
+        "name":"Business valuation",
         "price":"50",
-        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
-        "details":"Excel is the number one tool for every finance professional. It’s critical to know how to use all the various formulas, functions"
+        "img":"https://image.freepik.com/free-photo/businessman-holding-tablet-showing-growing-virtual-hologram-statistics-graph-chart-with-arrow-up_34200-307.jpg",
+        "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts"
     }
 ]

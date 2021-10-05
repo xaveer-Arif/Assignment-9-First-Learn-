@@ -6,13 +6,10 @@ import ReviewServices from '../ReviewService/ReviewServices';
 import useCart from '../useCart/UseCart';
 import useServices from '../UseServices/UseServices';
 import { Button } from 'react-bootstrap';
-import { useHistory } from 'react-router';
 
 const Review = () => {
     const [services] = useServices()
     const [cart,setCart] = useCart(services)
-    const history = useHistory()
-    
     
     const removeHandler = id=> {
         const newCart = cart.filter(service => service.id !== id)

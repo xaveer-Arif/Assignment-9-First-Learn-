@@ -10,7 +10,7 @@
         "id":"615ab0b0cb88ce366b187dbc",
         "name":"Financial Statements",
         "price":"120",
-        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "img":"https://image.freepik.com/free-photo/businessmen-elegant-suits-business-meeting-making-calculations-office_181624-38939.jpg",
         "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts"
     },
     
@@ -18,42 +18,49 @@
         "id":"615ab0b0eca8231fe0927d6b",
         "name":"Math",
         "price":"100",
-        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "img":"https://image.freepik.com/free-photo/close-up-businessman-with-digital-tablet_1098-549.jpg",
         "details":"It’s critical for financial analysts to have a solid understanding of financial math, and in particular, know how to calculate present value"
     },
     {
         "id":"615ab0b0c9876c4034d62454",
         "name":"Excel",
         "price":"50",
-        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "img":"https://image.freepik.com/free-vector/couple-professionals-analyzing-graphs_74855-4393.jpg",
         "details":"Excel is the number one tool for every finance professional. It’s critical to know how to use all the various formulas, functions"
     },
     {
         "id":"615ab0b0980820f1f16d3aa0",
         "name":"Financial Analysis",
         "price":"130",
-        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "img":"https://img.freepik.com/free-photo/no-credit-score-debt-deny-concept_53876-134023.jpg?size=626&ext=jpg",
         "details":"This is the “core” of a financial analyst’s job description. Classes on financial analysis will teach you how to calculate metrics"
     },
     {
         "id":"615ab0b02ce6082b75332687",
         "name":"Financial Statements",
-        "price":"120",
-        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "price":"300",
+        "img":"https://image.freepik.com/free-vector/sales-managers-with-laptops-growth-chart-sales-growth-manager-accounting-sales-promotion-operations-concept-white-background_335657-1704.jpg",
         "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts"
     },
     {
         "id":"615ab0b02ce2b75332687",
         "name":"Financial Statements",
-        "price":"120",
+        "price":"150",
+        "img":"https://image.freepik.com/free-photo/businessman-holding-laptop-with-financial-ghraphics-while-diverse-employees-talking_482257-6517.jpg",
+        "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts"
+    },
+    {
+        "id":"615ab0b02ce60dfd82b75332dfd",
+        "name":"Financial Statements",
+        "price":"200",
         "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
         "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts"
     },
     {
-        "id":"615ab0b02ce6082b75332dfd",
-        "name":"Financial Statements",
-        "price":"120",
-        "img":"https://image.freepik.com/free-photo/close-up-disabled-worker-with-protective-mask-immobilized-wheelchair-working-computer_482257-2233.jpg",
+        "id":"615ab0b02ce608fgf2b75332dfd",
+        "name":"Business valuation",
+        "price":"50",
+        "img":"https://image.freepik.com/free-photo/businessman-holding-tablet-showing-growing-virtual-hologram-statistics-graph-chart-with-arrow-up_34200-307.jpg",
         "details":"When it comes to financial statements, there are many important things analysts need to understand. The most important concepts"
     }
 ]

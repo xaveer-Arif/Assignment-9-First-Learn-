@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css'
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -18,10 +17,6 @@ const Header = () => {
     </Nav>
     </Container>
   </Navbar>
-            {/* <NavLink to = './home'>Home</NavLink>
-            <NavLink to = './review'>Review</NavLink>
-            <NavLink to = './services'>Services</NavLink>
-            <NavLink to = './about'>About</NavLink> */}
         </div>
     );
 };

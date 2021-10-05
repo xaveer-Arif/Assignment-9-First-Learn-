@@ -4,7 +4,7 @@ import Service from '../Service/Service';
 import useServices from '../UseServices/UseServices';
 import useCart from '../useCart/UseCart'
 import Cart from '../Cart/Cart';
-import {addToLocal, getStoredCart} from '../../LocalStorage/LocalStorage'
+import {addToLocal} from '../../LocalStorage/LocalStorage'
 import { Button } from 'react-bootstrap';
 import {NavLink } from 'react-router-dom';
 
@@ -16,7 +16,6 @@ const Services = () => {
    const [cart,setCart] = useCart(services) 
 
   const addHandler = (services) =>{
-    // const newCart = [...cart, services]
       const exists = cart.find(course => course.id === services.id)
       let newCart = [];
       if(exists){
